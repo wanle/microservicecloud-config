@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles:
+    application:
+      name: microservicecloud-config-hytx-dev
+---
+spring:
+  profiles:
+    application:
+      name: microservicecloud-config-hytx-test
+#请保持UTF-8格式
